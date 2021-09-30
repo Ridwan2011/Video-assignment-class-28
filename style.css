@@ -1,0 +1,414 @@
+/* Deafault-start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+.midwidth {
+    max-width: 1300px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Deafault-end */
+
+/* Header-saction-start */
+
+.collapse{
+    margin-left: 300px;
+}
+
+.bgi{
+    background: url(./img/ia_200000019.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+    height: 739px;
+}
+
+.bgi::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.4);
+    z-index: -1;
+}
+
+.header-row{
+    background: rgba(0,0,0,.7);
+    height: 82px;
+}
+
+.logo{
+    position: relative;
+}
+
+
+.menu ul{
+    float: right;
+    position: relative;
+    right: 81px;
+    bottom: 65px;
+}
+
+.u-1{
+    color: #c68224;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 18px;
+    position: relative;
+}
+
+.menu ul li a:hover{
+    color: #c68224;
+}
+
+.menu ul li a{
+    padding-bottom: 34px;
+}
+
+.menu ul li a:hover{
+    border-bottom: 3px solid ;
+    transition: 1s;
+}
+
+.menu ul li ul{
+    position: absolute;
+    top: 125%;
+    left: -31px;
+    width: 273px;
+    background-color: #fff;
+    text-align: center;
+    transition: .8s;
+    opacity: 0;
+    visibility: none;
+    transform: scaleY(0); 
+}
+
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    transform-origin: top center bottom;
+    z-index: 1;
+}
+
+.menu ul li ul li{
+    display: block;
+    background: #fff;
+}
+
+.menu ul li ul li:hover{
+    background: #dddddd;
+    transition: 1s;
+}
+
+
+.menu ul li ul li:hover a{
+    color: #c68220;
+}
+
+
+
+
+.menu ul li ul li a{color: #000;}
+
+.menu ul li ul li a:hover{
+    border: none;
+}
+
+/* Header-saction-end */
+
+
+/* Banner-start */
+
+.banner-section h1{
+    z-index: 9;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    /* float: right; */
+    top: 202px; 
+    font-size: 71px;
+    /* left: 150px;  */
+    font-weight: 700;
+}
+
+.banner-section p{
+    z-index: 9;
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    top: 234px;
+    left: 506px;
+    float: left;
+    font-weight: 700;
+}
+
+.banner-section .banner-button{
+    z-index: 9;
+    position: relative;
+    text-align: center;
+    top: 342px;
+    left: 263px;
+    float: left;
+}
+
+.banner-button a{
+    text-transform: uppercase;
+    width: 130px;
+    display: block;
+    background: #c69453;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+
+.banner-button a:hover{
+    background: #fff;
+    color: #c69453;
+    transition: 1s;
+}
+
+/* Banner-end */
+
+
+/* rotate-section */
+
+.rotate-section{
+    background: #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rotate-card{
+    width: 271px;
+    margin-left: 46px;
+    background: #fff;
+    text-align: center;
+    height: 299px;
+    display: inline-block;
+    transition: .5s;
+}
+
+
+.rotate-card:hover{
+    background-color: #e7e5e3;
+}
+
+.rotate-card:hover a{
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.rotate-card:hover img{
+    transform: rotateY(360deg);
+    transition: .5s;
+}
+
+
+.rotate-card img{
+    transition: .5s;
+}
+
+
+.rotate-card a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+    position: relative;
+    top: 30px;
+}
+
+.card-title{
+    width: 224px;
+    position: relative;
+    left: 25px;
+}
+
+.card-title h3{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
+.card-button a{
+    background: #c69453;
+    padding: 10px;
+    position: relative;
+    top: 25px;
+    border-radius: 5px;
+
+}
+
+/* rotate-section */
+
+
+/* Video */
+
+.video{
+    padding-top: 100px;
+    padding-block: 100px;
+}
+
+.m-video{
+    position: relative;
+    left: 108px;
+}
+
+.v-detail{
+    position: relative;
+    top: 2=10px
+}
+
+.v-button button{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px; 
+    transition: .5s;
+}
+
+.v-button button:hover{
+    background-color: #72562c;
+    transition: .5s;
+}
+
+.video{
+    background: #f8f8f8;
+}
+
+/* Video */
+
+
+/* Contact */
+
+.contact{
+    background: url(./img/ia_200000022.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+
+.contact h1{
+    text-align: center;
+    position: relative;
+    right: 156px;
+    font-weight: 700;
+}
+
+.contact form{
+    position: relative;
+    display: inline-block;
+    left: 303px;
+}
+
+.contact input{
+    width: 500px;
+    height: 54px;
+    padding-left: 16px;
+    border: none;
+}
+
+.contact textarea{
+    border: none;
+    width: 500px;
+    height: 101px;
+    padding-left: 17px;
+    padding-top: 12px;
+}
+
+.contact button{
+    border: none;
+    padding: 11px;
+    background: #c69453;
+    color: #fff;
+}
+
+
+.contact-form{
+    
+    position: relative;
+    left: -135px;
+}
+
+
+
+.contact p{
+    position: relative;
+    display: inline-block;
+    left: 304px;
+    margin-top: 2px;
+}
+
+/* Contact */
+
+
+
+
+/* Footer */
+
+
+footer{
+    background: #6d6d6d;
+    color: #cdcdcd;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    display: inline-block;
+    margin-left: 81px;
+}
+
+footer i{
+    padding-right: 40px;
+}
+
+.icons{
+    display: inline-block;
+    
+    margin-left: 304px;
+}
+
+
+/* Footer */

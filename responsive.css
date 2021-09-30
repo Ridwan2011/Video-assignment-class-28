@@ -1,0 +1,192 @@
+@media (max-width: 468px) {
+
+    .form-button{
+        width: 150%;
+        text-align: center;
+    }
+
+    .banner-section .midwidth{
+        overflow: visible;
+    }
+    
+    .navbar-toggler{
+        background: #fff;
+        }
+    
+    .midwidth{
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .banner-section p{
+        left: 102px;
+        font-weight: 500;
+        font-size: 31px;
+    }
+
+    .banner-section .banner-button{
+        left: -100px;
+    }
+
+    .rotate-card{
+        margin-left: 93px;
+        box-shadow: -12px 0px 18px #000;
+        margin-bottom: 65px;
+    }
+
+    .m-video{
+        left: 0;
+    }
+
+    iframe{
+        width: 467px;
+    }
+
+    .video-p-2{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .v-detail{
+        margin-top: 41px;
+        padding: 16px;
+    }
+
+    form{
+        left:  147px !important;
+        }
+    
+    input{
+        width:   150% !important;
+    }
+    
+    textarea{
+        width: 150% !important;
+    }
+    
+        .contact-title p{
+        left: 136px;
+        text-align: center;
+        width: 315px;
+        left: 214px;
+        }
+        .contact-title h1{
+    
+        right: -135px;
+        }
+    
+        .icons i{
+            visibility: hidden;
+            position: absolute;
+        }
+        
+        footer p{
+            margin-left: 0;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+}
+
+
+
+@media (max-width: 320px) {
+    .form-button{
+        width: 150%;
+        text-align: left;
+    }
+
+    .navbar-toggler{
+    margin-left: 101px;
+    background: #fff;
+    }
+
+    .midwidth{
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .banner-section .midwidth{
+        overflow: visible;
+    }
+
+    .banner-section .banner-button{
+        left: 97px;
+        text-align: center;
+        top: 287px;
+    }
+
+    .banner-section p{
+        left:  0 !important;
+        font-size: 17px;
+        top: 210px;
+        width: 319px;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+
+    .rotate-card{
+        margin-left: 25px;
+        margin-bottom: 45px;
+    }
+
+    .rotate-section{
+        padding-bottom: 0;
+    }
+
+    .m-video{
+        left: 0;
+    }
+
+    iframe{
+        width: 318px;
+    }
+
+    .video-p-2{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .v-detail{
+        margin-top: 41px;
+        padding: 16px;
+    }
+
+    form{
+    left:  147px !important;
+    }
+
+    input{
+    width:   100% !important;
+    }
+
+    textarea{
+    width: 100% !important;
+    }
+
+    .contact-title p{
+    left: 136px;
+    text-align: center;
+    }
+    .contact-title h1{
+
+    right: -135px;
+    }
+
+    .icons i{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    footer p{
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+}
